@@ -44,3 +44,11 @@ header, section, article, nav, aside, footer, div {
    padding-bottom: 25px;
    background-color: grey;
 }
+
+footer{
+   background-color: black;
+}
+
+header{
+   background-color: black;
+}
