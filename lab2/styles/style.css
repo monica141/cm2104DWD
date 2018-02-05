@@ -22,6 +22,11 @@ header, section, article, nav, aside, footer, div {
    height: auto;
 }
 
+#imageDetails{
+   max-width: 90%;
+   margin: auto;
+}
+
 #logo{
    max-width: 60%;
    height: auto;
