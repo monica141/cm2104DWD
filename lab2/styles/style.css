@@ -17,6 +17,7 @@ header, section, article, nav, aside, footer, div {
 #MainImage{
    border-radius: 10px;
    max-width: 80%;
+   display: block;
    margin: auto;
    height: auto;
 }
