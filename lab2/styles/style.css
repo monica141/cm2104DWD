@@ -4,6 +4,10 @@ body{
   font-family: sans-serif;
 }
 
+*{
+   background-color: #BFC9CA;
+}
+
 a{
    text-decoration: none;
 }
@@ -46,7 +50,7 @@ header, section, article, nav, aside, footer, div {
 .BlogPostContent{
    padding-top: 25px;
    padding-bottom: 25px;
-   background-color: grey;
+   background-color: #B2BABB;
 }
 
 ul{
@@ -60,9 +64,9 @@ footer{
 }
 
 header{
-   background-color: grey;
+   background-color: #5F6A6A;
 }
 
 nav{
-   background-color: black;
+   background-color: #5F6A6A;
 }
