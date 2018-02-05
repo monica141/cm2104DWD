@@ -25,6 +25,7 @@ header, section, article, nav, aside, footer, div {
 #imageDetails{
    max-width: 90%;
    margin: auto;
+   margin-top: 20px;
 }
 
 #logo{
