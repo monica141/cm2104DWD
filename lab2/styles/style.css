@@ -4,6 +4,10 @@ body{
   font-family: sans-serif;
 }
 
+a{
+   text-decoration: none;
+}
+
 /*
 header, section, article, nav, aside, footer, div {
   font-family: sans-serif;
@@ -51,6 +55,8 @@ ul{
 
 footer{
    background-color: black;
+   padding: 25px;
+   text-align: center;
 }
 
 header{
