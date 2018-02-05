@@ -29,4 +29,5 @@ header, section, article, nav, aside, footer, div {
    max-width: 40%;
    float: right;
    padding-right: 50px;
+   padding-top: 45px
 }
