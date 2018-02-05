@@ -1,11 +1,21 @@
 body{
-  margin: auto;
+  margin: 0;
   width: 80%;
   font-family: sans-serif;
 }
 
-*{
-   background-color: #EAEDED;
+.wrapper{
+   max-width: 1280px;
+   margin: 0px auto;
+}
+
+.wrapper:after{
+   content: "";
+   clear:both;
+   width:0px;
+   font-size:0;
+   height:0px;
+   display: block;
 }
 
 a{
@@ -40,7 +50,7 @@ header, section, article, nav, aside, footer, div {
    height: auto;
 }
 
-header #title{
+#title{
    max-width: 75%;
    float: right;
    padding-right: 100px;
