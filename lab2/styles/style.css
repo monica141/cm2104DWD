@@ -13,3 +13,9 @@ header, section, article, nav, aside, footer, div {
 .BlogPostContent{
   color: red;
 }
+
+#MainImage{
+   border-radius: 10px;
+   max-width: 100%;
+   height: auto;
+}
