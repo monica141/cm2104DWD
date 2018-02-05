@@ -40,7 +40,7 @@ header, section, article, nav, aside, footer, div {
    height: auto;
 }
 
-#title{
+header #title{
    max-width: 75%;
    float: right;
    padding-right: 100px;
