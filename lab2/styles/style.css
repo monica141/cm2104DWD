@@ -1,5 +1,4 @@
 body{
-  margin: auto;
   width: 80%;
   font-family: sans-serif;
 }
@@ -40,6 +39,7 @@ header, section, article, nav, aside, footer, div {
 }
 
 .BlogPostContent{
+   margin: auto;
    padding-top: 25px;
    padding-bottom: 25px;
    background-color: grey;
