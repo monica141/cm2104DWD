@@ -50,7 +50,6 @@ header, section, article, nav, aside, footer, div {
 .BlogPostContent{
    padding-top: 25px;
    padding-bottom: 25px;
-   background-color: #B2BABB;
 }
 
 ul{
@@ -58,7 +57,7 @@ ul{
 }
 
 footer{
-   background-color: black;
+   background-color: #5F6A6A;
    padding: 25px;
    text-align: center;
 }
