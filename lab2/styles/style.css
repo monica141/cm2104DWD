@@ -19,3 +19,8 @@ header, section, article, nav, aside, footer, div {
    max-width: 100%;
    height: auto;
 }
+
+#logo{
+   max-width: 20%;
+   height: auto;
+}
