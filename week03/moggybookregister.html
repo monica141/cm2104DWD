@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MoggyBook Register</title>
+    <script>
+    // Simple script to pop-up form values after submission
+    function testResults(form){
+      // Grab form element values and store as variables
+      var username = form.username.value;
+      var breed = form.breed.value;
+      var email = form.email.value;
+      var dateofbirth = form.dateofbirth.value;
+      var about = form.about.value;
+      // Repeat above for all the form elements used
+      //Complete alert message popup by appending variables
+      alert("You registered: " + username +
+            ", which is a " + breed +
+            ", whose email is " + email +
+            ", was born on " + dateofbirth +
+            ", and " + about );
+   }
+    </script>
+
+    <!-- link rel="stylesheet" type="text/css" href="css/styles.css?v=1.0"-->
+
+</head>
+
+<body>
+  <h1>Moggybook!</h1>
+  <form>
+     <table border="0" cellspacing="5" cellpadding="5">
+        <tr>
+           <td>Username:</td>
+           <td><input type="textarea" name="username"></td>
+        </tr>
+        <!-- Use table row <tr> template beneath for other form elements -->
+        <tr>
+           <td>Breed</td>
+           <td><input type="textarea" name="breed"></td>
+        </tr>
+        <tr>
+           <td>Email</td>
+           <td><input type="textarea" name="email"></td>
+        </tr>
+        <tr>
+           <td>Homepage</td>
+           <td><input type="textarea" name="homepage"></td>
+        </tr>
+        <tr>
+           <td>Date of Birth</td>
+           <td><input type="textarea" name="dateofbirth"></td>
+        </tr>
+        <tr>
+           <td>About</td>
+           <td><input type="textarea" name="about"></td>
+        </tr>
+     </table>
+     <input type="submit" name="submit" value="Submit" onClick="testResults(this.form)" />
+  </form>
+</body>
+</html>
