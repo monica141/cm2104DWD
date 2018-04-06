@@ -29,11 +29,11 @@
          // Replace Skittles
          var skittles = document.body.getElementsByTagName("p")[1];
 
-         var aggression = document.createElement("p");
-         var aggressionText = document.createTextNode("Aggression");
-         aggression.appendChild(aggressionText);
+         var aggression = document.createElement("p");                          // Creating an element
+         var aggressionText = document.createTextNode("Aggression");            // Creating the text
+         aggression.appendChild(aggressionText);                                // Append the text to the element
 
-         document.body.replaceChild( aggression, skittles );
+         document.body.replaceChild( aggression, skittles );                    // Replacing one element for the other
 
       </script>
    </body>
