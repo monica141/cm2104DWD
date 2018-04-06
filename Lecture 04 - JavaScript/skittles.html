@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title></title>
+   </head>
+   <body>
+      <p>Skittles</p>
+      <p>Fear</p>
+      <p>Anger</p>
+      <script>
+
+         var paragraphs = document.body.getElementsByTagName("p");
+         document.body.insertBefore( paragraphs[2] , paragraphs[0]);
+
+         // Change the inner html
+         //document.body.innerHTML = "<p> Well that was usefull </p>";
+
+         // Add html to the existing body
+         //document.body.appendChild(newPara);
+         //var newPara = document.createTextNode("A Jedi craves not these things");
+
+         // Add html into a new p tag of the existing body
+         var newPara = document.createElement("p");
+         var text = document.createTextNode("A Jedi craves not these things");
+         newPara.appendChild(text);
+         document.body.appendChild(newPara);
+
+         // Replace Skittles
+         var skittles = document.body.getElementsByTagName("p")[1];
+
+         var aggression = document.createElement("p");
+         var aggressionText = document.createTextNode("Aggression");
+         aggression.appendChild(aggressionText);
+
+         document.body.replaceChild( aggression, skittles );
+
+      </script>
+   </body>
+</html>
