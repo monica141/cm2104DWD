@@ -26,8 +26,8 @@
     output+="<tr><td>" + photos[i].rover.name + "</td><td>"
     + photos[i].camera.full_name + "</td><td>"
     + "<img src='" + photos[i].img_src +"'>" +"</td></td>"
-    + photos[i].earth_date[i] + "</td><td>"
-    + photos[i].launch_date[i] + "</td></tr>"
+    + photos[i].earth_date + "</td><td>"
+    + photos[i].launch_date + "</td></tr>"
   }
   output+="</tbody></table>";
 
