@@ -1,6 +1,6 @@
 $(function(){
 	// usual main starting point when web page loads
-	
+
 	// simple CSS class switcher
 	// find all divs
 	// bind to click events
@@ -18,5 +18,11 @@ $(function(){
 			$(this).addClass("red").removeClass("green");
 		}
 	});
-	
+
+	$("div").click(function(){
+		//$(this).css("position", "absolute");
+		//$(this).animate({left:"+=360"}, 1000, function(){});
+		$(this).delay(50).fadeOut();
+	});
+
 });

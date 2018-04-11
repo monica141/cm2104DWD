@@ -1,0 +1,17 @@
+* {
+   font-family: 'Arial';
+}
+
+th {
+   padding: 10px;
+   background-color: grey
+}
+
+td {
+   padding: 10px;
+   background-color: white;
+}
+
+.odd td{
+   background-color: lightgrey;
+}
