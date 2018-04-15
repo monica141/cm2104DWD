@@ -1,5 +1,5 @@
 {
-  "name": "views",
+  "name": "templating",
   "version": "1.0.0",
   "description": "Lecture about Templating",
   "main": "server.js",
@@ -12,5 +12,6 @@
   "dependencies": {
     "ejs": "^2.5.8",
     "express": "^4.16.3"
-  }
+  },
+  "devDependencies": {}
 }
